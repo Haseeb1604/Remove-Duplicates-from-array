@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Array Duplicate</title>
+    <style>
+        header h1{
+            text-align: center;
+        }
+        .Container{
+            display: flex;
+            justify-content: space-between;
+            width: 95%;
+            margin: 0 auto;
+        }
+        .values{
+            width: 45%;
+        }
+        .values h2{
+            text-align: center;
+        }
+    </style>
+    <script src="./ES5method.js"></script>
+    <script src="./ES6method.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Methods to Remove Duplicates from Array</h1>
+    </header>
+    
+   <div class="Container">
+   
+    <div class="ES5 values">
+        <h2>Using EcmaScript 5</h2>
+        <h4>Input Array value with space after each value entered</h4>
+        <input type="text" id="arrayVal" oninput="getArrayVal(event)"  required/>
+        <p>Array Value Entered : <label class="array"></label></p>
+        <p>Array without Duplicates: <label class="filteredArray"></label></p>
+    </div>
+    
+    <div class="ES6 values">
+        <h2>Using EcmaScript 6+</h2>
+        <h4>Input Array value with space after each value entered</h4>
+        <input type="text" id="arrayVal2" oninput="getArrayVal2(event)"  required/>
+        <p>Array Value Entered : <label class="array2"></label></p>
+        <p>Array without Duplicates: <label class="filteredArray2"></label></p>
+    </div>
+   </div>
+
+</body>
+</html>
